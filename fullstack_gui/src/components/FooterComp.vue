@@ -1,7 +1,18 @@
 <template>
-    <div class="container-fluid">
-        <h2 class="footer">&COPY; 2023</h2>
-    </div>
+    <footer>
+        <div class="row">
+            <div class="col-m-4">
+                <h5>SNEAKER<span>SYNC</span></h5>
+                <p>Step In Sync, Stride In Style</p>
+            </div>
+            <div class="col-m-4">
+
+            </div>
+            <div class="col-m-4">
+
+            </div>
+        </div>
+    </footer>
 </template>
 
 <script>
