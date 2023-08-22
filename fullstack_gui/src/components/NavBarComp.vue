@@ -15,7 +15,7 @@
             <router-link class="nav-link" to="/about">About</router-link>
           </li>
           <li>
-            <router-link class="nav-link" to="/products">Products</router-link>
+            <router-link class="nav-link" to="/products">Shop</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/contact">Contact</router-link>
@@ -28,6 +28,8 @@
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
+          <a class="nav-link" to="/admin">Admin</a>
+          <a class="nav-link" to="/">Account</a>
       </div>
     </div>
   </nav>
