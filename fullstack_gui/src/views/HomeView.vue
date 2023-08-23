@@ -21,6 +21,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   height: 900px;
+  background-attachment: fixed;
 }
 .lead{
   color: white;
