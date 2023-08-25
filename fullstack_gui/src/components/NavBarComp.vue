@@ -42,6 +42,7 @@ export default {
 <style scoped>
 .navbar{
   background-color: darkgray;
+  font-family: monospace;
 }
 span{
   color: white;

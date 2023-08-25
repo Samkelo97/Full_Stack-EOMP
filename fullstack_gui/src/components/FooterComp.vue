@@ -1,5 +1,6 @@
 <template>
-    <footer class="d-flex p-2">
+    <footer class="d-flex p-2
+    ">
         <div class="row">
             <div class="col-4 border-left">
                 <h1>SNEAKER<span>SYNC</span></h1>
@@ -56,6 +57,11 @@ export default {
 </script>
 
 <style scoped>
+i{
+    color:white;
+    font-size: large;
+
+}
 
 .social-container {
     display: flex;

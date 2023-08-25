@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <div class="container text-center">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-8 bg-white">
           <LogoCompVue/>
@@ -30,6 +30,7 @@
             src="https://i.postimg.cc/pVQ16qPN/Best-Classic-Sneakers-FB.jpg" alt="pic3"><br><br><img class="image1a"
             src="https://i.postimg.cc/sXHy5dtJ/black-leather-sports-shoe-with-undone-shoelace-generated-by-ai.jpg"
             alt="pic1">
+            <img class="sign" src="https://i.postimg.cc/sxR2rh4P/signature-1.png" alt="signature">
         </div>
       </div>
     </div>
@@ -46,6 +47,13 @@ export default {
 </script>
 
 <style scoped>
+.about{
+  padding: 30px;
+}
+.sign{
+  width: 250px;
+  padding: 60px;
+}
 .col-md-4{
   padding-top:50px ;
 }
@@ -54,13 +62,13 @@ span {
 }
 
 .row {
-  margin-top: 30px;
   position: absolute;
-
-  top: 80%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 5px;
+  justify-content: space-around;
+  background-attachment: fixed;
 }
 
 .image1a {
@@ -72,7 +80,7 @@ span {
   background-image: url('https://i.postimg.cc/g2nbvTYz/dark-storage-with-shelves-many-forms-creating-different-shoes-boots.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 950px;
+  height: 1000px;
 }
 h5{
   padding-top: 10px;
@@ -81,9 +89,8 @@ h4 {
   padding: 40px;
 }
 
-.container {
-  height: 500px;
-  width: 500px;
+.container-fluid {
+  justify-content: space-around;
 }
 
 p {
